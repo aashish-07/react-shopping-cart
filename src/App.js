@@ -37,7 +37,7 @@ class App extends React.Component {
     }));
   };
   filterProducts = (event) => {
-    // impl
+    // implement
     console.log(event.target.value);
     if (event.target.value === "") {
       this.setState({ size: event.target.value, products: data.products });
